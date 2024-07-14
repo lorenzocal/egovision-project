@@ -7,3 +7,5 @@ The extension notebook [7] takes the following files as input:
 
 - data.txt : it contains the queries of the validation set together with the predictions made by VSLNet + EgoVLP features + BERT, the ground truths extracted from the validation .json and other relevant information.
 - annotated_gt.txt : it contains the manually annotated textual ground truths for 50 NLQs.
+
+Please note that due to problems with the AWS credentials request in the final stages of the project, it was not possible to fully regenerate the qualitative results in the extension notebook [7].
