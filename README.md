@@ -3,7 +3,7 @@ This repository contains the code of the project "Natural Language Queries in Eg
 
 The attached notebooks contain data preparation and training of VSLBase using Omnivore [1] and EgoVLP features [2], VSLNet using Omnivore [3] and EgoVLP features [4], VSLNet replacing the default BERT text encoder with GloVe using Omnivore [5] and EgoVLP features [6].
 
-The notebook extension [7] takes the following files as input:
+The extension notebook [7] takes the following files as input:
 
 - data.txt : it contains the queries of the validation set together with the predictions made by VSLNet + EgoVLP features + BERT, the ground truths extracted from the validation .json and other relevant information.
 - annotated_gt.txt : it contains the manually annotated textual ground truths for 50 NLQs.
